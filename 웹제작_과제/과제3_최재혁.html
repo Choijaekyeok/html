@@ -5,8 +5,76 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>컴퓨터공학부 최재혁</title>
+    <style>
+        body{
+            text-align: left;
+            margin: 10%;
+            margin-top: 5%;
+        }
+    </style>
 </head>
 <body>
+    <div class="container">
+        <h1>프런트 엔드 개발자 지원서</h1>
+
+        <p>HTML,CSS Javascript에 대한 기술적 이해와 경험이 있는 분을 찾습니다</p>
+
+        <hr>
+            <legend><b>개인정보</b></legend>
+
+            <ul>
+                <label for="user_name" class="title">이름</label>
+                <input type="text" name="user_name" id="user_name" placeholder="공백없이 입력하세요" autofocus required>
+            </ul>
+            <ul>       
+                <label for="user_tell" class="title">연락처  </label>
+                <input type="tel" name="user_tell" id="user_tell"  required>
+            </ul>
+
+            <br>
+            
+            <legend><b>지원분야</b></legend>
+            
+            <ul>     
+                <label for="coffee1">
+                <input type="checkbox" name="coffee1" id="coffee1" value="과테밀라 안티구아 (100g)">
+                웹 퍼블리싱
+                                
+                </label>
+                </ul>
+                       
+                <ul>
+                    <label for="coffee2">
+                    <input type="checkbox" name="coffee2" id="coffee2" value="인도네시아 만델링 (100g)"/>
+                    웹 애플리케이션 개발 
+
+                </label>
+                </ul>
+
+                <ul>
+                    <label for="coffee3">
+                    <input type="checkbox" name="coffee3" id="coffee3" value="탐라는도다(블렌딩)(100g)">       
+                    개발 환경 개선
+                </label> 
+                </ul>
+
+                <legend><b>지원 동기</b></legend>
+                
+                <ul>
+                    <textarea name="user_title" id="user_title"  placeholder="본사 지원 동기를 간략히 써주세요" cols="80" rows="7"></textarea>
+                    <label for="user_title" class="title"></label>
+                <br>    
+                <input type="submit" value="접수하기">
+                <input type="reset" value="다시쓰기" >
+                </ul>
+                
+                
+                </ul>
+                <div class="user_title">
+					
+                </div>
+    </div>
+    
     
 </body>
 </html>
