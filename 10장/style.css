@@ -1,0 +1,89 @@
+* {
+    font-family: "맑은 고딕";
+    margin: 5px;
+}
+
+
+/* header, footer 영역, 안쪽 여백 20, 배경색상 가운데 정렬 */
+
+header, footer {
+    background-color: aqua;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Nav 영역- 배경색, 가운데 정렬, 글자크기 18, 진하게, 안쪽 여백 20 */
+
+nav {
+    background-color: crimson;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 20px;
+}
+
+/* 하이퍼링크 - 밑줄 없음, 가로 길이 100, 세로 길이 30, 안쪽 여백 20 */
+a {
+    padding: 10px;
+    text-decoration: none;
+    height: 30px;
+    width: 100px;
+    /* background-color: red; */
+    display: inline-block;
+}
+a:link, a:visited {
+    color: black;
+}
+
+a:hover, a:active{
+    color: white;
+    background-color: blueviolet;
+    text-decoration: underline;
+}
+
+section {
+    border: 3px solid brown;
+    background-color: sandybrown;
+    width: 48%;
+    height: 200px;
+    float: left ;
+}
+
+footer {
+    clear: both;
+}
+
+.c1 {
+    color: aliceblue;
+    padding: 10px;
+    background-color: blue;
+}
+
+#s2 .c1{
+    color: aliceblue;
+    padding: 10px;
+    background-color: rgb(71, 16, 30); 
+}
+#s3 .c1{
+    color: aliceblue;
+    padding: 10px;
+    background-color: rgb(56, 190, 108); 
+}
+
+#s4 .c1{
+    color: aliceblue;
+    padding: 10px;
+    background-color: rgb(226, 93, 208); 
+}
+
+#s5 .c1{
+    color: aliceblue;
+    padding: 10px;
+    background-color: rgb(8, 239, 255); 
+}
+
+#s6 .c1{
+    color: aliceblue;
+    padding: 10px;
+    background-color: rgb(216, 213, 58); 
+}
